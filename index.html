@@ -3,55 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="홍길동의 개인 프로필 페이지">
-  <title>홍길동 | Profile</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Chan-ju Park</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+      line-height: 1.7;
+      color: #222;
+      background: #fafafa;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 72px 24px;
+    }
+    h1 { margin: 0 0 4px; font-size: 2rem; }
+    .affil { margin: 0 0 32px; color: #666; }
+    h2 {
+      margin-top: 40px;
+      font-size: 1.05rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+    ul { padding-left: 20px; }
+    a { color: #1a5fb4; }
+    footer { margin-top: 56px; font-size: 0.85rem; color: #999; }
+  </style>
 </head>
 <body>
-  <main class="container">
-    <!-- 프로필 카드 -->
-    <section class="card profile">
-      <img class="avatar" src="images/profile.svg" alt="홍길동 프로필 사진" width="140" height="140">
-      <h1 class="name">홍길동</h1>
-      <p class="role">웹 개발자 · 서울</p>
-      <a class="btn" href="mailto:hello@example.com">연락하기</a>
-    </section>
+  <main>
+    <h1>박찬주 Chan-ju Park</h1>
+    <p class="affil">연세대학교 언론홍보영상학 박사과정</p>
 
-    <!-- 자기소개 -->
-    <section class="card">
-      <h2>자기소개</h2>
-      <p>
-        안녕하세요! 사용자에게 편리하고 아름다운 웹 경험을 만드는 것을 좋아하는 개발자 홍길동입니다.
-        새로운 기술을 배우고 이를 실제 문제 해결에 적용하는 과정에서 즐거움을 느낍니다.
-        꾸준히 성장하며 함께 일하고 싶은 사람이 되는 것이 목표입니다.
-      </p>
-    </section>
+    <h2>소개</h2>
+    <p>
+      플랫폼 공간에서 사람들이 차이를 어떻게 경험하는지 연구합니다.
+      앙리 르페브르의 공간 이론을 바탕으로 플랫폼 연구, 디지털 미디어, 사회적 차이를 다룹니다.
+    </p>
 
-    <!-- 관심 분야 -->
-    <section class="card">
-      <h2>관심 분야</h2>
-      <ul class="tags">
-        <li>웹 개발</li>
-        <li>UI/UX 디자인</li>
-        <li>인공지능</li>
-        <li>오픈소스</li>
-        <li>데이터 시각화</li>
-        <li>사진</li>
-      </ul>
-    </section>
+    <h2>연구 관심</h2>
+    <ul>
+      <li>플랫폼 연구와 플랫폼 정치경제학</li>
+      <li>알고리즘과 이용자 행동</li>
+      <li>온라인·오프라인 공간에서의 차이 경험과 사회적 양극화</li>
+      <li>질적 연구방법 (심층 인터뷰, 성찰적 주제분석)</li>
+    </ul>
 
-    <!-- 연락처 -->
-    <section class="card">
-      <h2>연락처</h2>
-      <p class="contact">
-        <span class="contact-label">Email</span>
-        <a href="mailto:hello@example.com">hello@example.com</a>
-      </p>
-    </section>
+    <h2>연락처</h2>
+    <ul>
+      <li>이메일: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+      <li>GitHub: <a href="https://github.com/chanju3605-cloud">chanju3605-cloud</a></li>
+    </ul>
 
-    <footer class="footer">
-      <p>&copy; 2026 홍길동. All rights reserved.</p>
-    </footer>
+    <footer>© 2026 Chan-ju Park</footer>
   </main>
 </body>
 </html>
